@@ -1,14 +1,12 @@
 package com.example.usuario.restaurante;
 
-import android.content.Intent;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
+
 
 
 import com.example.usuario.restaurante.api.Datos;
@@ -23,13 +21,6 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
-
-
-
-
-
-
-
 
     private RecyclerView recyclerView;
     private int offset;
