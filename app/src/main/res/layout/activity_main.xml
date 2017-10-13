@@ -38,6 +38,7 @@
         android:layout_below="@+id/recyclerView"
         android:layout_centerHorizontal="true"
         android:fontFamily="monospace"
+        android:onClick="acerca"
         android:text="Acerca De" />
 
 </RelativeLayout>

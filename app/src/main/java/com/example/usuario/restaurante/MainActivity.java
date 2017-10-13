@@ -117,7 +117,7 @@ Cuando se obtiene la instancia del recycler se usa el método setHasFixedSize()
             }
         });
     }
-    public void acercaDe(View v) {
+    public void acerca(View v) {
         Intent i =new Intent(this,acercaDe.class);
         startActivity(i);
     }
