@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/actionModeSplitBackground"
+    card_view:cardCornerRadius="15dp"
+    card_view:cardElevation="11dp"
+    card_view:cardUseCompatPadding="true">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="253dp"
+
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/zonaTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="153dp"
+            android:layout_y="51dp"
+            android:text="NOMBRE"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/nombreDelHotel"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_x="91dp"
+            android:layout_y="76dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/accidentesMotoTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="143dp"
+            android:layout_y="100dp"
+            android:text="DIRECCION"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/direcciN"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_x="91dp"
+            android:layout_y="135dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/contactoTelefNico"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_x="97dp"
+            android:layout_y="201dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textColor="@android:color/background_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/accidentesCamionetaTit"
+            android:layout_width="101dp"
+            android:layout_height="wrap_content"
+            android:layout_x="127dp"
+            android:layout_y="165dp"
+            android:text="TELEFONO"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tipoMes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="104dp"
+            android:layout_y="22dp"
+            android:text="HOTELES EL PASTO"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </AbsoluteLayout>
+</android.support.v7.widget.CardView>
