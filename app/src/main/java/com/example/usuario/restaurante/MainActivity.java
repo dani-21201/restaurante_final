@@ -1,12 +1,13 @@
 package com.example.usuario.restaurante;
 
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
-
+import android.view.View;
 
 
 import com.example.usuario.restaurante.api.Datos;
@@ -115,6 +116,10 @@ Cuando se obtiene la instancia del recycler se usa el método setHasFixedSize()
                 Log.e(TAG," onFailure: "+t.getMessage());
             }
         });
+    }
+    public void acercaDe(View v) {
+        Intent i =new Intent(this,acercaDe.class);
+        startActivity(i);
     }
 
 }
