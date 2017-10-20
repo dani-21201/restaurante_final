@@ -70,7 +70,7 @@ Cuando se obtiene la instancia del recycler se usa el método setHasFixedSize()
 
                             aptoParaCargar = false;
                             offset += 20;
-                            obtenerDatosReportesVehiculos();
+                            obtenerDatosReportesRestaurante();
                         }
                     }
                 }
@@ -88,13 +88,13 @@ Cuando se obtiene la instancia del recycler se usa el método setHasFixedSize()
         aptoParaCargar = true;
         offset = 0;
 
-        obtenerDatosReportesVehiculos();
+        obtenerDatosReportesRestaurante();
 
     }
 
 
 
-    private void obtenerDatosReportesVehiculos() {
+    private void obtenerDatosReportesRestaurante() {
         Datos service = retrofit.create(Datos.class);
         Call<ArrayList<Restaurante>> reporteRespuestaCall = service.obtenerListaRestaurante();
 
